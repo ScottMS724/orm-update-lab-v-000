@@ -97,7 +97,7 @@ xdescribe '.find_by_name' do
     end
   end
 
-  describe '#update' do
+ # describe '#update' do
     xit 'updates the record associated with a given instance' do
       josh.save
       josh.name = "Josh Jr."
